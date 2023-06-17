@@ -1,0 +1,380 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+img#dami {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+.navbar-nav{
+  width: 100%;
+
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+#init:hover {
+  color: aliceblue;
+}
+
+.bi-instagram:hover {
+  color: rgb(250, 209, 7) !important;
+  transition: all 0.2s ease;
+}
+
+.bi-linkedin:hover {
+  color: rgb(0, 179, 255) !important;
+  transition: all 0.2s ease;
+}
+
+.bi-facebook:hover {
+  color: rgb(236, 27, 13) !important;
+  transition: all 0.2s ease;
+}
+          
+#fluid {
+  position: relative;
+  background-color: #271919;
+}
+
+.triangulo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 40vw solid transparent;
+  /* Ancho del triángulo ajustado para ocupar todo el ancho de la pantalla */
+  border-bottom: 400px solid #4D3030;
+  /* Altura del triángulo ajustada según tus necesidades */
+  z-index: 0;
+}
+
+.triangulo2 {
+  position: absolute;
+  bottom: 0;
+  left: 31.5%;
+  border-left: 67.5vw solid transparent;
+  border-right: 0vw solid transparent;
+  /* Ancho del triángulo ajustado para ocupar todo el ancho de la pantalla */
+  border-bottom: 300px solid #271919;
+  /* Altura del triángulo ajustada según tus necesidades */
+  z-index: -1;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .triangulo2 {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    border-left: 67.5vw solid transparent;
+    border-right: 0vw solid transparent;
+    /* Ancho del triángulo ajustado para ocupar todo el ancho de la pantalla */
+    border-bottom: 300px solid #271919;
+    /* Altura del triángulo ajustada según tus necesidades */
+    z-index: -1;
+
+  }
+}
+
+#fluid2 {
+  position: relative;
+  z-index: 0;
+  background-color: #4D3030;
+
+}
+
+form {
+  color: aliceblue;
+}
+
+p {
+  color: aliceblue;
+
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: -80px;
+}
+
+.titles h3,
+.titles h5 {
+  margin: 0;
+  color: aliceblue;
+}
+
+#textopro {
+  color: black;
+  font-size: medium;
+  text-align: justify;
+}
+
+#portafolio {
+  color: rgb(70, 70, 70);
+}
+
+.botonpro {
+  border: 2px solid #4D3030;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding: 0px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: bold;
+  background-color: rgb(203, 201, 201);
+  position: relative;
+  left: 80%;
+  top: 50%;
+  transform: rotate(-40deg);
+
+}
+
+.botonpro2 {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: x-large;
+  padding: 0px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 90%;
+  top: 50%;
+  transform: rotate(-40deg);
+}
+
+
+.botonpro:hover {
+  background-image: url("img2/github.png");
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-size: 0px;
+  -webkit-text-stroke: 0px #ffffff;
+  box-shadow: 0 0 10px 10px rgba(153, 72, 72, 0.7);
+}
+
+#insignias {
+  filter: grayscale(0.5);
+  margin-left: 3px;
+
+}
+
+#insignias:hover {
+  filter: none;
+}
+
+#prox:hover,
+#prox:hover p {
+  border-radius: 1%;
+  background-color: #f9cece;
+}
+
+#prox p {
+  color: black;
+}
+#prox img{
+  margin-left: 0px;
+
+}
+
+#prox:hover p {
+  color: rgb(0, 0, 0);
+}
+
+#gigi {
+  filter: grayscale(0.5);
+}
+
+#gigi:hover {
+  filter: none;
+  box-shadow: 0 0 5px 5px rgba(224, 180, 180, 0.7);
+  border: double 5px rgba(224, 180, 180, 0.7);
+}
+
+
+#curri {
+  border-radius: 20px;
+  border: #ffffff solid 2px;
+  background-color: aliceblue;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: transform .2s;
+}
+
+#curri:hover {
+  box-shadow: 0 0 10px 10px rgba(153, 72, 72, 0.7);
+  transform: scale(1.2);
+}
+
+#send:hover {
+  box-shadow: 0 0 10px 10px rgba(153, 72, 72, 0.7);
+
+}
+
+
+@media (max-width: 767px) {
+  body {
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #portafolio {
+    order: 1;
+  }
+
+  #logopor {
+    order: 3;
+    width: 200px;
+    position: relative;
+    height: 200px;
+    bottom: 80px;
+  }
+
+  #titulo {
+    order: 2;
+  }
+
+  #textopro {
+    order: 4;
+  }
+
+  .botonpro {
+    order: 5;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #chon {
+    padding: 5% 0% 5% 5%;
+  
+  }
+
+  #chon p {
+    font-size: small;
+    position: relative;
+    top: 80px;
+    text-align: justify;
+    padding-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  #chon h3 {
+    font-size: large;
+    top: 60px;
+    position: relative;
+  }
+
+  #chon h5 {
+    font-size: medium;
+    top: 60px;
+    position: relative;
+  }
+
+  #dami {
+    position: relative;
+    right: 60px;
+    transform: scale(1.0);
+  }
+
+}
+
+
+@media (max-width: 991px) {
+  #skills .col-3 p {
+    font-size: smaller;
+  }
+
+  #skills .col-3 span {
+    display: none;
+  }
+
+  #skills .container-fluid {
+    width: 100%;
+  }
+
+  #prox:hover,
+  #prox:hover p {
+    border-radius: 0%;
+    background-color: transparent;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  #skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container-fluid {
+    width: 100%;
+    
+  }
+
+  #skills .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #skills .col-3 {
+    flex-basis: calc(100% / 4);
+    max-width: calc(100% / 4);
+  }
+
+  #skills .col-3 p {
+    display: none;
+  }
+
+  #skills .col-3 span {
+    display: none;
+
+  }
+}
