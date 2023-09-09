@@ -145,6 +145,27 @@ p {
   color: rgb(70, 70, 70);
 }
 
+
+#walletchon{
+  filter: sepia(0.2);
+  border-radius: 10% 30% 10% 10%;
+}
+
+#openai{
+  filter: sepia(0.3);
+  border-radius: 30%;
+  width: 220%;
+  height: 200px;
+}
+
+#pawsbook{
+  filter: sepia(0.3);
+  border-radius: 10% 30% 10% 10%;
+  width: 250%;
+  height: 200px;
+}
+
+
 .botonpro {
   border: 2px solid #4D3030;
   border-radius: 50%;
@@ -269,6 +290,27 @@ p {
   #logopor {
     order: 3;
     width: 200px;
+    position: relative;
+    height: 200px;
+    bottom: 80px;
+  }
+  #walletchon {
+    order: 3;
+    width: 200px;
+    position: relative;
+    height: 200px;
+    bottom: 80px;
+  }
+  #openai {
+    order: 3;
+    width: 230px;
+    position: relative;
+    height: 200px;
+    bottom: 80px;
+  }
+  #pawsbook {
+    order: 3;
+    width: 270px;
     position: relative;
     height: 200px;
     bottom: 80px;
